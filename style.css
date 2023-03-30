@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: rgb(224, 216, 171);
+    font-family: 'Courier New' sans-serif;
+    font-size: 15px;
+    padding: 15px;
+}
+
+img {
+    width: 160px;
+    float: left;
+    margin-right: 22px;
+}
+
+article {
+    background: lightgoldenrodyellow;
+    border-top: 5px solid lightslategray;
+    overflow: hidden;
+    padding: 15px;
+    float: left;
+    /*float: left -  */
+    margin-bottom: 20px;
+    max-width: 300px;
+    /* margin-left: 30px; */
+    margin-right: 30px;
+}
+
+/*trasform: translateY - Y yra pozicija(siuo atveju i apacia). Z - yra pozicija i virsu*/
+
+article:hover {
+    border-color: gold;
+    transform: translateY(20px);
+}
+
+h1 {
+    color: lightslategray;
+}
